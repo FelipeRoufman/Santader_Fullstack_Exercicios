@@ -20,3 +20,12 @@ for( let i = 0; i < quantidade; i++){
 
 console.log("os numeros que serao analizados são:",usuario)
 
+let funcional = []
+
+for(let i = 0; i < usuario.length; i++){
+    if(usuario[i] %2 === 0){
+        funcional.push(usuario[i])
+    }
+}
+
+console.log(`os numeros que serao pares ${funcional}`)
